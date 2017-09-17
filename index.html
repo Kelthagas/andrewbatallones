@@ -6,26 +6,47 @@
         <link rel="stylesheet" href="bootstrap-4.0.0-beta-dist/css/bootstrap.min.css">
 
         <link rel="stylesheet" href="src/app.css">
+
+        <script type="text/javascript" src="src/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="src/app.js"></script>
         
     </head>
     <body>
-        <header class="text-center">
-            <h1>Andrew Batallones</h1>
-            <h5>Web Developer</h5>
+        <header class="bg-purple">
+            <nav class="text-right container">
+                <p>
+                    <a href="#about">About</a> |
+                    <a href="#projects">Projects</a> |
+                    <a href="#Contact">Contact</a>
+                </p>
+            </nav>
+            <div class="text-center">
+                <h1>Andrew Batallones</h1>
+                <h5>Web Developer</h5>
+                <p>
+                    <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a> | 
+                    <a href="https://angular.io/" target="_blank">AngularJS</a> | 
+                    <a href="https://getbootstrap.com/" target="_blank">Bootstrap-4</a> | 
+                    <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a>
+                </p>
+            </div>
         </header>
+
         <div class="container">
-            <div>
+            <div class="section" id="about">
                 <h5>About</h5>
                 <p>My name Is Andrew Batallones. For now, I have barely started scratching the surface of web development. I want to learn as much as I can in order to help people out to my fullest extent! Even though I focus on web development, I also do game design on my time off.</p>
                 <p>This is a starting point for anyone looking to see what I have done. As I gain more experience, this site will also grow into something fantastic.</p>
             </div>
+            <hr />
     
-            <div>
+            <div class="section" id="projects">
                 <h5>Projects</h5>
                 <p>Here are some of the projects that I have done as well as some that I am working on. If you want to know some of the other things I am testing out, you can find some smaller projects on my <a href="https://codepen.io/Kelthagas/">CodePen</a> account.</p>
             </div>
+            <hr />
     
-            <div>
+            <div class="section" id="contact">
                 <h5>Contact</h5>
                 <p>If you would like to contact me, you can email me or message me and I will get back to you as soon as I can!</p>
                 <ul>
