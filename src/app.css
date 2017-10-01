@@ -1,5 +1,9 @@
 header {
-  color: white; }
+  color: white;
+  display: flex; }
+  header .banner {
+    align-self: center;
+    width: 100%; }
   header a {
     color: white; }
     header a :visited {

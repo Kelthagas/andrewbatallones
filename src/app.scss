@@ -1,5 +1,11 @@
 header {
   color: white;
+  display: flex;
+
+  .banner {
+    align-self: center;
+    width: 100%;
+  }
 
   a {
     color: white;
@@ -16,4 +22,8 @@ header {
 
 .bg-purple {
   background-color: #570E7B;
+}
+
+.section {
+
 }
