@@ -1,8 +1,6 @@
 header {
-  color: white;
-  display: flex; }
+  color: white; }
   header .banner {
-    align-self: center;
     width: 100%; }
   header a {
     color: white; }
