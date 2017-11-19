@@ -4,90 +4,98 @@
     <head>
       <title>Andrew Batallones</title>
 
-      <link rel="stylesheet" href="css/bootstrap-4.0.0-beta-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/materialize/css/materialize.min.css">
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
       <link rel="stylesheet" href="css/app.css">
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
       <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="css/bootstrap-4.0.0-beta-dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="css/materialize/js/materialize.min.js"></script>
       <script type="text/javascript" src="javascript/app.js"></script>
 
     </head>
     <body>
-      <header>
-        <div class="jumbotron banner bg-purple">
-          <div class="text-center">
+      <nav class="nav-extended bg-purple">
+        <div class="nav-wrapper">
+          <div class="center-align">
             <h1>Andrew Batallones</h1>
             <h5>Web Developer</h5>
             <p>
               <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a> |
               <a href="https://angular.io/" target="_blank">AngularJS</a> |
               <a href="https://getbootstrap.com/" target="_blank">Bootstrap-4</a> |
+              <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> |
               <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a>
             </p>
-            <p class="text-center">
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#about">About</button>
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#projects">Projects</button>
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#contact">Contact</button>
-            </p>
           </div>
         </div>
-      </header>
+      </nav>
 
       <div class="container">
-        <div class="collapse" id="about">
-          <h3 class="text-center">About</h3>
-          <hr />
-          <p>My name is Andrew Batallones and I am a Web Developer. My main focus is on the logic on how web sites are implemented, their functionality as well as how data is manipulated. Feel free to take a look anywhere in my site as well as some of my projects that I am currently working on.</p>
-          <p>My goal is to help improve the workflow for businesses so that they can focus on providing excellent services and not having to worry about keeping track of their clients, losing information on either paper files or databases, and providing a very clean interface!</p>
-        </div>
+        <ul class="collapsible popout" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header">About</div>
+            <div class="collapsible-body">
+              My name is Andrew Batallones and I am a Web Developer. My main focus is on the logic on how web sites are implemented, their functionality as well as how data is manipulated. Feel free to take a look anywhere in my site as well as some of my projects that I am currently working on.
+              My goal is to help improve the workflow for businesses so that they can focus on providing excellent services and not having to worry about keeping track of their clients, losing information on either paper files or databases, and providing a very clean interface!
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">Projects</div>
+            <div class="collapsible-body">
+              I am always working on either personal projects or improving my personal site. You can find most of my projects or small code segments here!
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-content">
+                      <span class="card-title">codepen.io</span>
+                      <p>Most of my one-page apps can be found here. You can also find projects that I have done for freeocodecamp.com here.</p>
+                      <div class="card-action">
+                        <a href="https://codepen.io/Kelthagas/" target="_blank" class="waves-effect waves-light purple darken-3 btn">codepen.io</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-content">
+                      <span class="card-title">freecodecamp.com</span>
+                      <p>When I have some free time to learn, I always go here. This has helped me with learning HTML, CSS, and JavaScript, as well as other aspects of web development.</p>
+                      <div class="card-action">
+                        <a href="https://www.freecodecamp.org/kelthagas" target="_blank" class="waves-effect waves-light purple darken-3 btn">freecodecamp.com</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-content">
+                      <span class="card-title">GitHub</span>
+                      <p>For my larger projects, I will put as much as I can here on my GitHub account.</p>
+                      <div class="card-action">
+                        <a href="https://github.com/kelthagas" target="_blank" class="waves-effect waves-light purple darken-3 btn">github.com</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">Contact</div>
+            <div class="collapsible-body">
+              There are many places you can find me. I am always happy to talk, or email. However, if you think that I may be a good addition to your project or if you are looking to hire, you can also email me or check me out on these sites!
+              <br />
+              <div class="center-align">
+                <a href="https://www.linkedin.com/in/batallones-andrew/" class="waves-effect waves-light purple darken-3 btn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/andrew.batallones" class="waves-effect waves-light purple darken-3 btn"><i class="fa fa-facebook"></i></a>
+                <a href="https://github.com/kelthagas" class="waves-effect waves-light purple darken-3 btn"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-        <div class="collapse" id="projects">
-          <h3 class="text-center">Projects</h3>
-          <hr />
-          <p>I am always working on either personal projects or improving my personal site. You can find most of my projects or small code segments here!</p>
-          <div class="row">
-            <div class="col">
-              <div class="card card-project">
-                <div class="card-body">
-                  <h4 class="card-title">codepen.io</h4>
-                  <p class="card-text">Most of my one-page apps can be found here. You can also find projects that I have done for freeocodecamp.com here.</p>
-                  <a href="https://codepen.io/Kelthagas/" target="_blank" class="btn btn-primary">codepen.io</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-project">
-                <div class="card-body">
-                  <h4 class="card-title">freecodecamp.com</h4>
-                  <p class="card-text">When I have some free time to learn, I always go here. This has helped me with learning HTML, CSS, and JavaScript, as well as other aspects of web development.</p>
-                  <a href="https://www.freecodecamp.org/kelthagas" target="_blank" class="btn btn-primary">freecodecamp.com</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-project">
-                <div class="card-body">
-                  <h4 class="card-title">GitHub</h4>
-                  <p class="card-text">For my larger projects, I will put as much as I can here on my GitHub account.</p>
-                  <a href="https://github.com/kelthagas" target="_blank" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="collapse" id="contact">
-          <h3 class="text-center">Contact</h3>
-          <hr />
-          <p>There are many places you can find me. I am always happy to talk, or email. However, if you think that I may be a good addition to your project or if you are looking to hire, you can also email me or check me out on these sites!</p>
-          <a href="https://www.linkedin.com/in/batallones-andrew/" class="btn btn-primary"><i class="fa fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/andrew.batallones" class="btn btn-primary"><i class="fa fa-facebook"></i></a>
-          <a href="https://github.com/kelthagas" class="btn btn-primary"><i class="fa fa-github"></i></a>
-        </div>
-    </div>
   </body>
 </html>
